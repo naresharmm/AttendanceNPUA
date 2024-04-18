@@ -1,0 +1,7 @@
+.ant-table-tbody {
+  font-size: 12px;
+}
+
+.ant-table-tbody > tr > td:first-child {
+  font-weight: bold;
+}

@@ -1,0 +1,46 @@
+.ant-picker-date-panel .ant-picker-cell:not(.ant-picker-cell-in-view) .ant-picker-cell-inner {
+    display: none;
+}
+
+.ant-picker-date-panel .ant-picker-cell:not(.ant-picker-cell-in-view) {
+    pointer-events: none;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date-content {
+    height: 150px;
+}
+
+.ant-picker-calendar-year-select {
+    display: none;
+}
+
+.ant-picker-calendar-mode-switch {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    .attendance-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .attendance-container {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ant-picker-calendar .ant-picker-cell {
+        padding: 5px !important;
+    }
+    .ant-picker-calendar .ant-picker-cell .ant-picker-calendar-date {
+        padding: 2px !important;
+        font-size: 12px !important;
+    }
+}
+
+.attendance-header {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.qrCodeContainer, .uploadFormContainer {
+    width: 100%; /* Take full width */
+    max-width: 400px; /* Limit width */
+    margin-bottom: 20px; /* Add spacing between items */
+}
+
+.uploadFormContainer {
+    order: 2; 
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+    .dashboardContainer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .uploadFormContainer {
+        margin-bottom: 0; /* Remove bottom margin */
+    }
+}
